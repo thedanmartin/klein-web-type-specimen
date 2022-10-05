@@ -1,0 +1,697 @@
+/* All CSS styles go here */
+
+html{
+  max-width: 1400px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+*,*:before, *:after{
+  box-sizing: inherit;
+}
+img{
+  max-width: 100%;
+}
+
+/*Home/Title Page*/
+/*Yellow Menu*/
+.TitlePg{
+  height:808px;
+  width: 1400px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+}
+  /*Menu*/
+.RectMenu{
+  height: 50px;
+  width: 1400px;
+  color: #FFBF74;
+  background-color: #FFF5B5;
+  top: 0px;
+  left:0px;
+  margin: none;
+  padding: none;
+  overflow: hidden;
+
+  text-decoration: none;
+  border: 0px;
+
+  display: flex;
+  font-weight: 600;
+  list-style-type: none;
+  text-align: justify;
+  justify-content: space-between;
+  z-index: 999;
+  line-height: 50px;
+}
+  #sticky{
+    top:-20px;
+    position: fixed;
+  }
+
+  #Home:hover, #History:hover, #Weights:hover,
+  #LoremIpsum:hover, #Characters:hover{
+    color: #00C2FF;
+    text-decoration: none;
+  }
+
+
+  #Home:focus, #Home:active{
+    color: #5396AB;
+    text-decoration: none;
+  }
+  #History:focus, #History:active{
+    color: #5396AB;
+  }
+  #Weights:focus, #Weights:active{
+    color: #5396AB;
+  }
+  #LoremIpsum:focus, #LoremIpsum:active{
+    color: #5396AB;
+  }
+  #Characters:focus, #Characters:active{
+    color: #5396AB;
+  }
+  #Space{
+    color: #FFF5B5;
+  }
+
+.Title{
+  font-size: 125px;
+  font-weight: 600;
+  color: #FFC47D;
+  margin: 0;
+  position: absolute;
+  top: 70px;
+  left:80px;
+  line-height: 200px;
+}
+.Title2{
+  font-size: 125px;
+  font-weight: 600;
+  color: #FFC47D;
+  margin: 0;
+  position: absolute;
+  top: 220px;
+  left: 80px;
+  line-height: 200px;
+}
+/*Blue Triangle*/
+.Triangle{
+  width: 0;
+  height: 0;
+  top: 50px;
+  left: 0;
+  right: 0;
+  border-bottom: 808px solid #75CCE6;
+  border-left: 1400px solid transparent;
+  position: absolute;
+  padding: none;
+  margin: none;
+}
+.TypeBy{
+  font-weight: 300;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 500px;
+  left:800px;
+}
+.TypeBy2{
+  font-weight: 300;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 560px;
+  left:740px;
+}
+
+/*History Page*/
+.HistoryPg{
+  height: 592px;
+  width: 1400px;
+  position: absolute;
+  background-color:#75CCE6;
+  padding: none;
+  margin: none;
+  border: none;
+  top:855px;
+  left: 0;
+}
+.History{
+  padding: none;
+  margin-top: none;
+  border: none;
+  font-weight: 400;
+  font-size:70px;
+  color: #FFE5B5;
+  margin: 0;
+  text-align: center;
+  line-height: 70px;
+  column-count: 4;
+  position: relative;
+  top: 40px;
+  left: -30px;
+}
+.HistQuote{
+  padding: none;
+  margin: none;
+  border: none;
+  width:700px;
+  white-space: normal;
+  text-align: left;
+  position: relative;
+  top: -445px;
+  left: 300px;
+
+}
+
+/*The first type experiment*/
+.firstExp{
+  height: 1552px;
+  width:1400px;
+  position: absolute;
+  background-color: #5396AB;
+  padding: none;
+  margin: none;
+  border: none;
+  top:590px;
+}
+.word{
+  width: 1400px;
+  height: 1600px;
+  font-weight: 900;
+  font-size: 520px;
+  color: #427382;
+  letter-spacing: -90px;
+  line-height: 190px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  padding: none;
+  margin: none;
+  border: none;
+  overflow:visible;
+  overflow-x: hidden;
+}
+.sign1{
+  font-weight: 200;
+  font-size: 488px;
+  color: #FFFFFF;
+  position: absolute;
+  transform: rotate(-90deg);
+  top: -300px;
+  left: 955px;
+}
+.sign2{
+  font-weight: 400;
+  font-size: 1000px;
+  color: #FFFFFF;
+  position: absolute;
+  transform: rotate(90deg);
+  top: -240px;
+  left: 60px;
+}
+.sign3{
+  font-weight: 200;
+  font-size: 800px;
+  font-style: italic;
+  color: #FFFFFF;
+  position: absolute;
+  top: 140px;
+  left: 800px;
+
+}
+
+/*flexographic Weights page*/
+.weightsBar{
+  height: 67px;
+  width: 1400px;
+  background-color: #75CCE6;
+  position: absolute;
+  top: 1935px;
+}
+.weightsPgLim{
+  height: 1360px;
+  width: 1400px;
+  border:0.1px transparent;
+  top: 1500px;
+  position: absolute;
+  overflow-x: hidden;
+}
+#weightsPg{
+  height: 1360px;
+  width: 1500px;
+  background-color: #75CCE6;
+  border-radius: 50%;
+  border: transparent;
+  position: absolute;
+  overflow: hidden;
+  left: -50px;
+}
+#WeightsWord{
+  font-weight: 900;
+  font-size: 150px;
+  letter-spacing: -5px;
+  color: #233D45;
+  position: absolute;
+  top: 300px;
+  left: 350px;
+}
+
+#flexographic{
+  font-weight: 200;
+  font-size: 40px;
+  letter-spacing: 30px;
+  color: #233D45;
+  position: absolute;
+  top: 260px;
+  left: 355px;
+}
+    /*slider*/
+.slideshowContainer{
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  background-color: transparent;
+  position: static;
+  margin: 500px;
+  margin-top: 500px;
+  top: 625px;
+  left: 1000px;
+}
+
+.slideContainer{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: orange;
+  position: relative;
+  left: 105px;
+  overflow: hidden;
+
+
+  transition: left 2s;
+}
+.wghtContain{
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  float:left;
+  overflow: hidden;
+}
+.wghtText{
+  position: relative;
+  top: 50px;
+}
+.wghtNum{
+  color: #FFBA6F;
+  position: relative;
+  top: 10px;
+}
+.Aa{
+  font-size: 100px;
+  position: relative;
+  top: -45px;
+}
+#a100{
+  font-weight: 100;
+}
+#a200{
+  font-weight: 200;
+}
+#a300{
+  font-weight: 300;
+}
+#a400{
+  font-weight: 400;
+}
+#a500{
+  font-weight: 500;
+}
+#a600{
+  font-weight: 600;
+}
+#a700{
+  font-weight: 700;
+}
+#a800{
+  font-weight: 800;
+}
+#a900{
+  font-weight: 900;
+}
+#w100:target ~ .slideshowContainer{
+  left:0px;
+}
+#w200:target ~ .slideshowContainer{
+  left:-400px;
+}
+#w300:target ~ .slideshowContainer{
+  left:-800px;
+}
+#w400:target ~ .slideshowContainer{
+  left:-1200px;
+}
+#w500:target ~ .slideshowContainer{
+  left:-1600px;
+}
+#w600:target ~ .slideshowContainer{
+  left:-2000px;
+}
+#w700:target ~ .slideshowContainer{
+  left:-2400px;
+}
+#w800:target ~ .slideshowContainer{
+  left:-2800px;
+}
+#w900:target ~ .slideshowContainer{
+  left:-3200px;
+}
+
+.button-holder{
+  position: relative;
+  left: 195px;
+  top: 20px;
+
+}
+.slideChange{
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+    /*end slider*/
+#circleYllwFill{
+  width: 837px;
+  height: 597px;
+  border-radius: 50%;
+  background-color: #FFE398;
+  position: absolute;
+  transform:rotate(90deg);
+  top: 1200px;
+  left:320px;
+}
+#circleline1{
+  width: 837px;
+  height: 597px;
+  border-radius: 50%;
+  border: 8px solid #FFE398;
+  position: absolute;
+  overflow-x: hidden;
+  top: 950px;
+  left: -200px;
+  transform: rotate(30deg);
+}
+#circleline2{
+  width: 837px;
+  height: 597px;
+  border-radius: 50%;
+  border: 8px solid #FFE398;
+  position: absolute;
+  overflow-x: hidden;
+  top: 950px;
+  right: -200px;
+  transform: rotate(-30deg);
+}
+
+/*Lorem Ipsum page*/
+.yellowRect{
+  width: 1400px;
+  height: 665px;
+  background-color: #FFE398;
+  position: absolute;
+  top: 2390px;
+  overflow-x: hidden;
+}
+#Lorem{
+  font-size: 150px;
+  font-weight: 500;
+  color:#FFFFFF;
+  letter-spacing: 5px;
+  position: absolute;
+  top:350px;
+  left: 70px;
+  background-color: #FFE398;
+}
+#Ipsum{
+  font-size: 150px;
+  font-weight: 500;
+  color:#FFE398;
+  letter-spacing: 5px;
+  position: absolute;
+  top:350px;
+  right: 70px;
+  background-color: white;
+}
+.ipsumWhiteBck{
+  height: 185px;
+  width:700px;
+  background-color: white;
+  position: relative;
+  top: 470px;
+  left: 700px;
+}
+.loremIspumPg{
+  height: 1793px;
+  width: 1400px;
+  background-color: white;
+  position: relative;
+  border: white 2px solid;
+  top: 2130px;
+}
+#hypnoLI{
+  font-size: 75px;
+  letter-spacing: 5px;
+  color: #FFBF74;
+  font-weight: 400;
+  position: relative;
+  left: 75px;
+  top: -80px;
+}
+.hypnoHead{
+  display: grid;
+  max-width: 1200px;
+  grid-template-areas:
+  'firstPara secondPara'
+  'spa spa2'
+  'footer footer';
+  gap: 50px;
+
+  position: relative;
+  left:85px;
+  top: -540px;
+}
+.item1{
+  grid-area: firstPara;
+}
+
+#novel{
+  color: #FFBF74;
+}
+#noteNovel{
+}
+#paragraphLI1{
+  font-size: 10px;
+  line-height: 18px;
+}
+.item2{
+  grid-area: secondPara;
+}
+#hypnoHead2{
+  color: #FFBF74;
+}
+#paragraphLI2{
+  font-size: 5px;
+  line-height: 10px;
+  font-weight: 600;
+}
+.item3{
+  grid-area: spa;
+  height: 200px;
+}
+#hypExp1{
+  text-align: center;
+  position: relative;
+  font-size: 70px;
+  letter-spacing: 30px;
+  color: #FFBF74;
+  top: 350px;
+  left: 30px;
+  font-weight: bold;
+}
+#hypExp2{
+  text-align: center;
+  position: relative;
+  font-size: 70px;
+  letter-spacing: 30px;
+  color: grey;
+  top:219px;
+  left: 20px;
+}
+#hypExp3{
+  text-align: center;
+  position: relative;
+  font-size: 70px;
+  letter-spacing: 30px;
+  color: white;
+  left: 10px;
+  top:85px;
+  font-weight: 300px;
+}
+.item5{
+  grid-area: footer;
+}
+#hypnoHead3{
+  color: #FFBF74;
+}
+#paragraphLI3{
+  line-height:72px;
+  font-size:18px;
+  font-weight: 200;
+}
+
+/*Montserrat experiment page*/
+.montExp{
+  width: 900px;
+  height: 300px;
+  background-color: #84E6FF;
+  position: relative;
+  top: 2400px;
+  left: 100px;
+  overflow: visible;
+  mix-blend-mode: darken;
+
+}
+
+#MontUp{
+  font-size: 200px;
+  font-weight: 600;
+  color: #FFBF74;
+  letter-spacing: -20px;
+  left: 230px;
+  top: -140px;
+  position: relative;
+  transform: scaleX(-1);
+  text-decoration: overline;
+  mix-blend-mode: darken;
+
+}
+#MontDown{
+  font-size: 200px;
+  font-weight: 600;
+  color: #FFBF74;
+  letter-spacing: -20px;
+  position: relative;
+  left: 230px;
+  top: -245px;
+  transform: scaleX(-1) scaleY(-1);
+  text-decoration: overline;
+  mix-blend-mode: darken;
+
+}
+.polycentrism{
+  font-size: 145px;
+  font-style: italic;
+  font-weight: 600;
+  color: #84E6FF;
+  position: relative;
+  top: 2200px;
+  left: 120px;
+}
+.francophiles{
+  font-size: 110px;
+  font-weight: 800;
+  color: #FFBF74;
+  position: relative;
+  top: 2000px;
+  left: 480px;
+}
+
+/*Blastodermic page*/
+.characterPg{
+  width: 1400px;
+  height: 570px;
+  background-color: transparent;
+  position: relative;
+  top: 1950px;
+  overflow: hidden;
+}
+.titleSquare{
+  width: 700px;
+  height: 635px;
+  background-color: #75CCE6;
+  left: 0;
+  position: relative;
+  top: -200px;
+}
+.contentSquare{
+  width: 700px;
+  height: 635px;
+  background-color: #FFF5B5;
+  position: relative;
+  left: 700px;
+  top: -865px;
+  text-align: center;
+}
+.content{
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: 110px;
+}
+.BlastoChara{
+  position: relative;
+  top: 110px;
+  font-size: 150px;
+  line-height: 0px;
+}
+#Blasto{
+  letter-spacing: 14px;
+  color: white;
+}
+#DERMIC{
+  color: white;
+}
+#CHARA{
+  letter-spacing: 28px;
+  color: #5396AB;
+}
+#CTERS{
+  letter-spacing: 48px;
+  color: #5396AB;
+}
+
+/*footer*/
+.Footer{
+  width: 1400px;
+  height: 215px;
+  position: relative;
+
+  top: 2050px;
+  display: grid;
+  grid-template-areas:
+  'Fitem1 Fitem2 Fitem3 Fitem7'
+  'Fitem5 Fitem6 Fitem10 Fitem9';
+  left: 100px;
+  line-height: 2px;
+}
+
+/*new type of code to help with responsive design*/
+/*In plain terms, it says "when the screen is a minium width, activate these style
+rules." The rules follow inside of the curly brackets like any other CSS*/
+@media screen and (min-width: 768px){
+
+
+  }
+@media screen and (min-width: 1044px){
+
+}
